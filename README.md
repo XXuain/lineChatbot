@@ -29,12 +29,12 @@ user >> line server >> web app
 - ur existing git project add the heroku remote
 ` $ heroku git:remote -a {ur heroku app name} `
 
-### Created setting file
+### Created Heroku setting file
 - for Heroku new ` Procfile `
 - new ` requirements.txt ` ( ` $ pip3 freeze > Requirements.txt `)
 
-setting Webhooks
-
-
+### Setting LINE Develope
+- Webhooks: Messaging API settings > Webhook URL
+- Add friend!!: Messaging API settings > QR code
 
 ## [step.4] LINE Bot setting
